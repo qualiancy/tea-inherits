@@ -1,0 +1,15 @@
+{
+    "name": "tea-inherits"
+  , "repo": "qualiancy/tea-inherits"
+  , "version": "0.0.0"
+  , "description": "Constructor inheritance."
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "main": "lib/inherits.js"
+  , "scripts": [
+        "lib/inherits.js"
+    ]
+  , "dependencies": {}
+  , "development": {}
+}
