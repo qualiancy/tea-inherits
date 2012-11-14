@@ -1,6 +1,6 @@
 {
     "name": "tea-inherits"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Constructor inheritance."
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"

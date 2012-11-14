@@ -1,4 +1,4 @@
-# tea-inherits
+# tea-inherits [![Build Status](https://secure.travis-ci.org/qualiancy/tea-inherits.png?branch=master)](https://travis-ci.org/qualiancy/tea-inherits)
 
 > Constructor inheritance.
 
