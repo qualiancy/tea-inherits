@@ -16,6 +16,30 @@
 
     $ component install qualiancy/tea-inherits
 
+## Usage
+
+### inherits (constructor, super)
+
+* **@param** _{Function}_ constructor to inherit
+* **@param** _{Function}_ constructor to inherit from
+
+Set up a constructor to inherit from it's super.
+
+```js
+var EventEmitter = require('events').EventEmitter
+  , inherits = require('tea-inherits');
+
+function MyConstructor () {
+  // snazzy things
+}
+
+inherits(MyConstructor, EventEmitter);
+
+var myctor = new MyConstructor();
+myctor.should.be.instanceof(EventEmitter);
+myctor.should.be.instanceof(MyConstructor);
+```
+
 ## License
 
 (The MIT License)
